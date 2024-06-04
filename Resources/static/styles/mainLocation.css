@@ -1,0 +1,104 @@
+#main-location {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    width: 100%;
+    min-height: 700px;
+    justify-content: center;
+}
+
+.location-sub-sec {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.location-sub-sec>.sub-sec-title {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.location-sub-sec>.location-discription {
+    margin-top: 27px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.location-sub-sec>.location-discription>.main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-sub-sec>.location-discription>.main-info>.info-hard {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.location-sub-sec>.location-discription>.main-info>.info-light {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.location-sub-sec>.location-discription>.info-space {
+    margin-top: 60px;
+}
+
+.location-sub-sec>.location-discription>.sub-info {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.location-sub-sec>.location-discription>.sub-info>.info-hard {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.location-sub-sec>.location-discription>.sub-info>.info-light {
+    margin-top: 4px;
+    text-align: left;
+}
+
+.location-map {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .location-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location-discription {
+        text-align: left;
+    }
+
+    .location-map {
+        height: 100%;
+        width: 100%;
+    }
+}

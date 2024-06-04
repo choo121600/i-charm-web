@@ -1,0 +1,29 @@
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    background-attachment: fixed;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+#header>.header-container {
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    padding: 1.24em 0;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo>img {
+    width: 150px;
+}

@@ -1,0 +1,163 @@
+#main-banner {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec-banner {
+    position: relative;
+}
+
+.sec-banner>img {
+    width: 100vw;
+}
+
+.surf_wave {
+    position: absolute;
+    top: 0;
+    left: 15vw;
+    animation: motion-wave 0.6s linear 0s infinite alternate;
+}
+
+.surf_wave>img {
+    height: 40vw;
+}
+
+.surfer {
+    top: 28vw;
+    left: 43vw;
+    position: absolute;
+    animation: motion-surf 0.4s linear 0s infinite alternate;
+}
+
+.surfer>img {
+    width: 5vw;
+}
+
+.ticketBtn {
+    right: 15vw;
+    margin-top: 3vh;
+    position: absolute;
+    animation: vibration 0.3s infinite;
+}
+
+.ticketBtn>a>img {
+    width: 25vw;
+}
+
+.str {
+    bottom: 0;
+    height: 3.33333333rem;
+    left: 50%;
+    margin-left: -50%;
+    position: absolute;
+    right: auto;
+    text-align: center;
+    top: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.str>p {
+    margin: 5px;
+}
+
+.str>span {
+    animation: scrolldown 2s infinite;
+    background-image: url("../images/underArrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: 0.83333333rem;
+    display: inline-block;
+    height: 0.86111111rem;
+    left: 50%;
+    margin-left: -0.44444444rem;
+    position: absolute;
+    right: auto;
+    top: auto;
+    width: 0.91666667rem;
+    -webkit-filter: brightness(1) invert(1);
+    filter: brightness(1) invert(1);
+}
+
+@keyframes scrolldown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
+
+.sub-sec {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 2.22222222rem 0;
+}
+
+.sub-sec-title>h3 {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.7777rem;
+    position: relative;
+    font-weight: 800;
+}
+
+.sub-sec-title>img {
+    width: 50%;
+    max-width: 200px;
+    min-width: 170px;
+}
+
+.sub-sec-title>.title-under-line {
+    width: 40vw;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: center;
+    display: block;
+    border-top: 3px solid black;
+    margin: 10px auto;
+}
+
+@keyframes motion-wave {
+    0% {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+}
+
+@keyframes motion-surf {
+    0% {
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: rotate(0.3deg);
+    }
+
+    100% {
+        margin-top: 3px;
+        margin-left: 3px;
+        transform: rotate(-0.3deg);
+    }
+}
+
+@keyframes vibration {
+    from {
+        transform: rotate(0.5deg);
+    }
+
+    to {
+        transform: rotate(-0.5deg);
+    }
+}

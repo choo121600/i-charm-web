@@ -1,0 +1,44 @@
+#main-intro {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A6CFF;
+}
+
+#main-intro>.mainIntroHead {}
+
+#main-intro>.mainIntroHead>p {
+    font-size: 2em;
+    font-weight: 500;
+    margin: 40px;
+    color: #01D991;
+}
+
+#main-intro>.mainIntroHead>img {
+    width: 20vw;
+    max-width: 170px;
+    min-width: 150px;
+}
+
+#main-intro>.main-description {
+    margin: 0px 20px 20px 20px;
+}
+
+#main-intro>.main-description>p {
+    font-size: 1.1em;
+    line-height: 2;
+    color: #ffffff;
+}
+
+#main-intro>.sub-description {
+    margin: 20px;
+}
+
+#main-intro>.sub-description>p {
+    font-size: 1.1em;
+    line-height: 2;
+    font-weight: 500;
+    color: #ffffff;
+}

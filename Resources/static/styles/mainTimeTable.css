@@ -1,0 +1,113 @@
+#main-timetable {
+    min-height: 50vh;
+    display: flex;
+    z-index: 1;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    background-color: #EBEBE8;
+}
+
+
+.sec-timetable {
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 990px;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.session-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3.8rem;
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.session-header>img {
+    width: 150px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.session-table-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.7vw;
+}
+
+.session-table {
+    text-align: left;
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 95%;
+}
+
+.session-level {
+    text-align: left;
+    width: 10%;
+    border-bottom: 1.8px solid #B2BDBF;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 1.08rem;
+    padding: 1.08rem 0.63rem;
+    font-family: Arial;
+}
+
+.session-time {
+    text-align: left;
+    width: 15%;
+    border-bottom: 1.8px solid #B2BDBF;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 1.08rem;
+    padding: 1.08rem 0.63rem;
+    font-family: Arial;
+}
+
+.session-describe {
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+    width: 70%;
+    border-bottom: 1.8px solid #B2BDBF;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 1.08rem;
+    padding: 1.08rem 0.63rem;
+}
+
+.breaktime {
+    background-color: #F1F1F1;
+}
+
+.session-describe>.session-info>.session-tag {
+    font-size: 0.72em;
+    padding: 1.8px 7.2px;
+    border-radius: 0.453333rem 0.453333333rem;
+    background-color: #D9D9D9;
+    color: #555555;
+    margin: auto 0 auto 4.5px;
+    display: inline-block;
+}
+
+.session-describe>.session-info>.session-title {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.session-describe>.speaker-info {
+    font-size: 0.81em;
+    font-weight: 400;
+    margin-top: 9px;
+}
