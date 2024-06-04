@@ -16,7 +16,7 @@ struct History: Component {
         Div {
             Div {
                 Paragraph(
-                    "History"
+                    "HISTORY"
                 )
                 Span{}.class("horizontal-line")
             }.class("mainIntroHead")
