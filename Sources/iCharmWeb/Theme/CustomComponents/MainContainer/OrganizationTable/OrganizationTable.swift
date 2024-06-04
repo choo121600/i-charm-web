@@ -48,7 +48,7 @@ struct OrganizationTable: Component {
                         H4 {
                             Text("이다혜(dadahae)")
                         }
-                        Paragraph("놀기 위해 일합니다 ( ⸝⸝ ᷇࿀ ᷆⸝⸝ƪ)✧")
+                        Paragraph("놀기 위해 일합니다 ( ´•౪•`)")
                     }.class("profile-card")
                 }
                 Link(url: "https://github.com/Jinsujin") {
